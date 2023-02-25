@@ -1,0 +1,71 @@
+/* From right to left */
+/* .sidebar{
+    height: 100vh;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    transition: all 0.5s;
+    right: 0px;
+} */
+
+/* From bottom to up */
+.sidebar{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    transition: all 0.5s;
+    bottom: 0px;
+}
+
+/* From right to left */
+/* .sidebar i{
+    font-size: 30px;
+    right: 300px;
+    top: 50px;
+    position: absolute;
+    cursor: pointer;
+} */
+
+/* From bottom to up */
+.sidebar i{
+    font-size: 30px;
+    right: 50px;
+    top: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.sidebar ul{
+    padding-top: 80px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+}
+
+.sidebar ul li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover{
+    color: white;
+    transition: all 0.5s;
+}
+
+.sidebar .close:hover{
+    color: red;
+    transition: all 0.5s;
+}
+
+/* .hide{
+    transform: translateX(270px);
+} */
+
+.hide{
+    transform: translateY(270px);
+}
+
+.active-body{
+    background-color: gray;
+}

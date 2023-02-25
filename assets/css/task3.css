@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    outline: none;
+}
+
+.password{
+    outline: none;
+}
+
+.container span{
+    color: red;
+}
